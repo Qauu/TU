@@ -1,0 +1,627 @@
+body{
+    font-family: sans-serif;
+    background-color: aliceblue;
+    color: black;
+    margin: 0%;
+    padding: 0%;
+}
+
+.header{
+    background-image:
+    linear-gradient(rgba(8, 5, 11, 0.7),rgba(9, 6, 12, 0.7)),
+    url(image/campus.jpg);
+    width:100%;
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: right;
+    
+    
+}
+
+.nav-links{
+    
+   flex-grow: 1;
+}
+
+ .cc>ul{
+    
+    list-style: none;
+}
+
+  .cc>li{
+    
+    display: inline-block;
+    position:relative;
+}
+  a{
+    color:rgb(242, 245, 247);
+    text-decoration: none;
+    text-shadow: 3px  #ccc;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+
+.cc li >a:hover{
+    
+    transition: 0.5s;
+    
+    padding: 1%;
+    border-bottom: solid #1f0bd6;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+h1{
+    font-size: 40pt;
+    padding-top: 10%;
+}
+p{
+    font-size: 30px;
+}
+.logo img{
+    width:60px;
+    height:80px;
+    left:30px;
+    position: absolute;
+}
+.title{
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top:60%;
+    left:50%;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.btn{
+    color:#ffffff;
+    border:1px solid #ccc;
+    background: transparent;
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    border: 1px #e6e0e0;
+    background: #1f0bd6;
+    transition: 1s;
+}
+
+    /*section{
+        background-color:rgb(25,12,41);;
+    }*/
+
+    section > h1, h4{
+        
+        text-align: center;
+       
+    }
+    .course{
+        width:990px;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        align-items: center;
+        margin:auto;
+        flex-grow: 1;
+        
+        
+       
+    }
+    .course-major{
+        width:300px;
+        padding: 10px;
+        text-align: center;
+        background-color: #ccc;
+        border-radius: 20px;
+          
+        
+    }
+    .photo{
+        width:130px;
+        height:130px;
+        border-radius: 30px;
+    }
+    
+        
+    
+    .part{
+        margin-top: 15px;
+              
+    }
+         
+    
+    .toast{
+        width:660px;
+        height:300px;
+        display: flex;
+        margin: auto;     
+        border-radius: 12px;      
+        background-color: #f0f0f0;       
+        box-shadow: #00000090;
+        position: relative;     
+    }
+    
+    .test{
+        display: flex;
+        top:15px;
+        position: relative;    
+
+    }
+    span{
+        left:35px;
+        position: absolute;
+    }
+    .item{
+        width:26px;
+        height:20px;
+        position: absolute;
+        background-color: #341ef490;
+        border-radius: 4px;
+    }
+    
+    .time{
+        top:15px;
+        right:0;
+        justify-content: right;
+        position: absolute;
+        
+    }
+    .text>p{
+        padding:20px;
+        text-align: justify;
+        font-size: 18pt;
+        line-height: 1.5em;
+    }
+    .aa{
+        width:990px;
+        margin-left: 300px;
+        font-size: 16pt;
+        text-align: justify;
+    }
+    .bb ul{
+         font-size: 16pt;
+         
+    }
+         
+     .bb> li{   
+        line-height: 2em;
+        list-style-type: circle;
+        
+    }
+
+    .four-body{
+        box-sizing: border-box;
+        margin:0;
+        padding:0;
+        height:100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    
+    }
+    .slider{
+        position: relative;
+        width:42%;
+        overflow: hidden;
+    }
+    .images{
+        display: flex;
+        
+    }
+
+    .images img{
+        width: 720px;
+        height: 555px;
+        transition: all 0.15s ease;
+    }
+
+    .images input{
+        display: none;
+    }
+    .dots{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:5px;
+    }
+    .dots label{
+        height: 20px;
+        width:20px;
+        border-radius: 50%;
+        border: solid 3px #000;
+        cursor: pointer;
+        transition: all 0.15s ease;
+        margin: 5px;
+        
+    }
+    .dots label:hover{
+        background:rgb(14, 36, 181);
+    }
+    #img1:checked ~ .m1{
+        margin-left: 0;
+    }
+    #img2:checked ~ .m2{
+        margin-left: -100%;
+    }
+    #img3:checked ~ .m3{
+        margin-left: -200%;
+    }
+    #img4:checked ~ .m4{
+        margin-left: -300%;
+    }
+
+    .five{
+        margin:100px auto;
+        width:60%;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+        url(image/enroll.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        text-align: center;
+        padding: 100px 0px;
+    }
+    .five h1{
+        color:#ffffff;
+        margin:40px;
+        padding: 0%;
+    }
+    .footer{
+       margin-top: 100px;
+        background-color: #323061;
+        color: #ffffff;
+        
+    }
+    .footer h4{
+       margin-top: 5px;
+        margin-bottom: 15px;
+        font-weight: 600;
+    }
+    .footer p{
+        font-weight: lighter;
+        font-size: 14pt;
+        margin: auto;
+        width:100%;
+        text-align: center;
+    }
+    .footer .icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        color: #9897a6;
+        margin-bottom: 10px;     
+    }
+    .fa-brands{
+        margin:0 10px;
+    }
+    
+    /*----about us page-----*/
+    .sub-header{
+    
+        width:100%;
+        height:50vh;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+        url(image/graduation.jpg);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        color: #fff;
+        position: relative;
+
+    }
+    .logo-part img{
+        bottom: 300px;
+    }
+    .sub-header h1{
+        margin-top: 1px;
+    }
+    .rank4{
+        width:80%;
+        margin: auto;
+        padding-top: 80px;
+        padding-bottom: 50px;
+        column-count: 2;
+        column-gap: 50px;
+    }
+    .about-col{
+        flex-basis: 48%;
+        padding: 30px 2px;
+    }
+    .about-col img{
+        width:100%;
+        height: 60vh;
+        box-shadow: #00000090;
+        
+    }
+    .about-col p{
+        font-size: 15pt;
+    }
+    .facilities{
+        margin: auto;
+        width:1000px;
+        align-items: center;
+        justify-content: center;
+    }
+    .facilities-part{
+        columns: 2 300px;
+        box-sizing: border-box;
+        column-gap: 60px;
+        
+    }
+    
+        
+    
+
+    .faci{
+        width:500px;
+        height: 40vh;
+        padding: 20px;
+        
+    }
+    .faci:hover{
+        filter: drop-shadow(10px 10px 10px rgb(122, 122, 149)) ;
+        
+        
+    }
+    .student-says{
+        width: 1300px;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .boxes{
+     display: flex;
+     justify-content: space-around;
+    }
+    
+    .box{
+        width:350px;
+        height: 200px;
+        background-color: pink;
+        border-radius: 30px;
+        padding: 25px;
+        position: relative;
+ 
+    }
+    .box::after{
+        content: "";
+        position: absolute;
+        left:250px;
+        bottom: -49px;
+        border: 25px #ffffff solid;
+        border-top-color: pink;
+       
+    }
+    .kth{
+        width:50px;
+        height:50px;
+        border-radius: 50%;
+        border: 1px solid black;
+        background-image: url(image/kthfb.jpg);
+        background-size: cover; 
+        margin-bottom: 30px;             
+    }
+    .pek{
+        background-image: url(image/pek.jpg);
+    }
+    .kth-img{
+       font-weight: 500;
+       left:95px;
+       position: absolute;
+      top: 33px;
+
+    }
+    .col{
+        width: 1000px;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        column-count: 3;
+    }
+    .col .col-part{
+        width:300px;
+        height: 100px;
+        border:2px solid blue;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        color: #1f0bd6;   
+
+    }
+
+    .cols {
+        margin: auto;
+         justify-content: center;
+         align-items: center;
+        
+        
+    }
+    .fa-solid{
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    
+    .cols p{
+        font-size: 14pt;
+        font-weight: 500;
+    
+    }
+    .login{
+        height: 130vh;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Poppings',sans-serif;
+       background-image: url(https://tumeiktila.edu.mm/wp-content/uploads/2020/12/TUM-2048x1536.jpg);
+       
+        
+    }
+    
+    
+    .wrapper{
+        width:420px;
+        color: #000;
+        border-radius: 10px;
+        padding: 30px 40px;
+        margin-top: -30px;
+        margin: auto;
+         justify-content: center;
+         align-items: center;
+         height: 60vh;
+        
+         /* From https://css.glass */
+         /* From https://css.glass */
+         background: rgba(245, 230, 230, 0.2);
+         border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+         backdrop-filter: blur(4.5px);
+         -webkit-backdrop-filter: blur(4.5px);
+         border: 1px solid rgba(245, 230, 230, 0.32);
+
+         /* From https://css.glass */
+
+        
+    }
+    .wrapper h1{
+        font-size: 36px;
+        text-align: center;
+    }
+    .wrapper .input-box{
+        position: relative;
+        width:100%;
+        height: 50px;
+        margin: 30px 0;
+        color: #000;
+    }
+    .input-box input{
+        width:100%;
+        height: 100%;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        font-size: 16pt;
+        color: #000;
+        border: 2px solid #000;
+        
+    }
+    .black{
+        color:#000;
+        text-decoration: underline;
+    }
+    .input-box input::placeholder{
+        color: #000;
+    }
+    .input-box>.fa-solid{
+        position: absolute;
+        right: 20px;
+        top:20%;
+        transform: translateY(-50%);
+        font-size: 20px;
+    }
+    .wrapper .remember-forgot{
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+    }
+    .remember-forgot label input{
+        accent-color: black;
+        margin-right: 3px;
+        margin: -15px 0 15px;
+    }
+    .wrapper .bttn{
+        width:100%;
+        height: 45px;
+        background-color: #fff;
+        color: #333;
+        border-radius: 40px;
+        font-weight: 600;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .wrapper .bttn:hover{
+        background-color: transparent;
+        color: #fff;
+        border: 2px solid white;
+
+    }
+    .wrapper .register-link{
+        font-size: 14pt;
+        text-align: center;
+        margin-top: 20px;
+        margin: 20px 0 15px;
+
+    }
+    .register-link p a{
+        color: #000;
+        font-weight: 600;
+    }
+    .fa-calendar-days{
+        color: #1f0bd6;
+    }
+    .jan12{
+        font-size: 11pt;
+        margin-left: 15px;
+        color: #1f0bd6;
+    }
+    .location, .contact-us{
+        margin: auto;
+        width:80%;
+        justify-content: center;
+        align-items: center;
+    }
+    .location iframe{
+        width:100%;
+    }
+     .contact-us{
+        margin: auto;
+        width:80%;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+     }
+    .contact-col{
+        flex-basis: 48%;
+        margin-bottom: 30%;
+    
+    }
+    .contact-col div{
+        display: flex;
+        align-items: center;
+       
+        margin-bottom: 40px;
+    }
+    span>h5{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       margin-left: 210px;
+        margin-bottom: 10px; 
+    }
+     .fa-house ,.fa-phone ,.fa-envelope{
+        font-size: 28px;
+        color: #1f0bd6;     
+    }
+    .layer{
+        background:rgba(105, 120, 221, 0.2);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left:0;
+    }
+
+
+
+    

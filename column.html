@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 Property</title>
+    <style>
+        *{
+            background-color: aqua;
+        }
+        .title{
+           font-size: 18pt;
+        }
+        .gallary{
+          columns: 3 300px;
+          column-gap: 40px;
+          width:1000px;
+          margin:auto;
+          border-radius: 10px;
+         
+        }
+        .gallary-img{
+            width:100%;
+            border: 10px solid #f3f3f3;
+            box-shadow: #00000090;
+            transition: 0.5s;
+        }
+        .gallary-img:hover{
+            filter: drop-shadow(10px 10px 10px rgb(122, 122, 149)) ;
+        }
+        @media screen {
+            .gallary{
+                width:80%;
+            }
+        }
+        
+    </style>
+<body>
+    <div class="title">Gallary</div>
+    <div class="gallary">
+        <img src="image/campus.jpg" class="gallary-img"/>
+        <img src="image/civil.jpg" class="gallary-img"/>
+        <img src="image/enroll.jpg" class="gallary-img"/>
+        <img src="image/ec.jpg" class="gallary-img"/>
+        <img src="image/it.jpg" class="gallary-img"/>
+        <img src="image/ep.jpg" class="gallary-img"/>
+        <img src="image/mechnical.jpg" class="gallary-img"/>
+        
+    </div>
+</body>
+
